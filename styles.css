@@ -1,19 +1,38 @@
-.mainQuote p {
-  font-size: 30px;
-  width: 700px;
-  margin: 0 auto;
-  line-height: 35px;
-  font-family: 'Guardian-Egyp-Web-Light';
-  float: left;
+.mainQuote {
+  font: 40px/50px AdelleBold,'Adelle Sans','Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-weight: 700;
   margin-bottom: 10px;
-  text-align: left;
-  
-.wholeQuote p {
-  font-size: 18px;
-  line-height: 140%;
-  font-family: 'Guardian-Egyp-Web-Light';
-  padding-top: 20px;
-  padding-left: 5px;
-  margin-top: 0px;
-  margin-bottom: 10px;
+}
+
+.wholeQuote {
+  position: relative;
+  margin: 0;
+  padding: 16px 0;
+  line-height: 1.6;
+  color: #4c4c4c;
+  font: 20px/30px "PT Serif",Georgia,serif;
+}
+
+.source {
+  font-size: 1em;
+  font-family: Georgia,serif;
+  font-weight: 200;
+  display: block;
+  color: #5E5E5E;
+}
+
+.yearsClean {
+  font-size: 1em;
+  font-family: Georgia,serif;
+  font-weight: 200;
+  display: block;
+  color: red;
+}
+
+.location {
+  font-size: 1em;
+  font-family: Georgia,serif;
+  font-weight: 200;
+  display: block;
+  color: #5E5E5E;
 }
