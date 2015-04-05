@@ -1,7 +1,13 @@
+
+/* 
+ * qz.com, 
+ * http://qz.com/376831/kenyas-garissa-students-thought-a-poster-warning-of-an-imminent-terrorist-attack-was-an-april-fools-prank/
+ */
 .mainQuote {
   font: 40px/50px AdelleBold,'Adelle Sans','Helvetica Neue',Arial,Helvetica,sans-serif;
   font-weight: 700;
   margin-bottom: 10px;
+  color: #333;
 }
 
 .wholeQuote {
@@ -18,7 +24,7 @@
   font-family:"PT Serif",Georgia,serif;
   font-weight: 200;
   display: block;
-  color: #5E5E5E;
+  color: #4c4c4c;
 }
 
 .yearsClean {
@@ -26,7 +32,7 @@
   font-family:"PT Serif",Georgia,serif;
   font-weight: 200;
   display: block;
-  color: red;
+  color: #006AA4;
 }
 
 .location {
@@ -34,5 +40,5 @@
   font-family:"PT Serif",Georgia,serif;
   font-weight: 200;
   display: block;
-  color: #5E5E5E;
+  color: #4c4c4c;
 }
