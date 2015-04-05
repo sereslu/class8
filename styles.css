@@ -15,7 +15,7 @@
 
 .source {
   font-size: 1em;
-  font-family: Georgia,serif;
+  font-family:"PT Serif",Georgia,serif;
   font-weight: 200;
   display: block;
   color: #5E5E5E;
@@ -23,7 +23,7 @@
 
 .yearsClean {
   font-size: 1em;
-  font-family: Georgia,serif;
+  font-family:"PT Serif",Georgia,serif;
   font-weight: 200;
   display: block;
   color: red;
@@ -31,7 +31,7 @@
 
 .location {
   font-size: 1em;
-  font-family: Georgia,serif;
+  font-family:"PT Serif",Georgia,serif;
   font-weight: 200;
   display: block;
   color: #5E5E5E;
