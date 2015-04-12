@@ -13,15 +13,15 @@ for (var i=0; i<guardianHeroinData.length; i++) {
 			'</div>'+
 		'</div>');
 
-	$template.find(".readMore").on("click", toggleContent);
+	$template.find(".readMore").on("click", toggleContent); //a click on the read more toggles whether the content shows or does not show
 	
 
-	$('#dataContainer').append($template);	
+	$('#dataContainer').append($template);	//the append action inserts all my data divs
 	
 }
 
-function toggleContent(e) {
-		$quoteContainer = $(this).parent();
+function toggleContent(e) { //this is the beginning of a function that will toggle content based on clicking the read more button
+		$quoteContainer = $(this).parent(); 
 		
 		if ($quoteContainer.hasClass("expanded")) {//quoteContainer has class .expanded (you can see content), so remove content
 			$quoteContainer.removeClass("expanded"); 
