@@ -26,10 +26,16 @@
 .moreInfo {
 	display: none;	
 }
+/*
+ * when moreInfo (my data) is not expanded, do not show the data.
+ */
 
 .expanded .moreInfo {
 	display: block;
 }
+/*
+ * when moreInfo is expanded, show it in block format.
+ */
 
 .wholeQuote {
   position: relative;
