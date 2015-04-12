@@ -6,8 +6,29 @@
 .mainQuote {
   font: 40px/50px AdelleBold,'Adelle Sans','Helvetica Neue',Arial,Helvetica,sans-serif;
   font-weight: 700;
-  margin-bottom: 10px;
+  padding: 30px 0;
+  margin-bottom: 5px;
   color: #333;
+}
+
+.readMore {
+  display: inline-block;
+  padding: 15px;
+  background-color: #3f3f3f;
+  font-family: AdelleBold,sans-serif;
+  font-size: 15px;
+  line-height: 1;
+  text-decoration: none;
+  color: #168dd9;
+  margin-top: 25px;
+}
+
+.moreInfo {
+	display: none;	
+}
+
+.expanded .moreInfo {
+	display: block;
 }
 
 .wholeQuote {
